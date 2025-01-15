@@ -34,6 +34,7 @@
 	"prettier": "@wordpress/prettier-config",
 	"homepage": "https://github.com/ucsc/ucsc-2022#readme",
 	"devDependencies": {
+		"@picocss/pico": "^2.0.6",
 		"@wordpress/prettier-config": "^2.9.0",
 		"@wordpress/scripts": "^25.3.0",
 		"husky": "^8.0.0",

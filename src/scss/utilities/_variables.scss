@@ -2,4 +2,9 @@
 :root {
 	--max-container-1280: 1280px;
 	--max-container-1440: 1440px;
+	// CSS variables for Pico CSS (form elements)
+	--pico-border-radius: 0.125rem;
+	--pico-typography-spacing-vertical: 1rem;
+	--pico-form-element-spacing-vertical: 0.35rem;
+	--pico-form-element-spacing-horizontal: 0.5rem;
 }

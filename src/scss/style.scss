@@ -1,3 +1,55 @@
+@use "@picocss/pico/scss/pico" with (
+	$enable-semantic-container: true,
+	$semantic-root-element: "#wp--skip-link--target",
+	$enable-classes: false,
+	$modules: (
+		// Theme
+		"themes/default": true,
+
+		// Layout
+		"layout/document": false,
+		"layout/landmarks": false,
+		"layout/container": false,
+		"layout/section": false,
+		"layout/grid": false,
+		"layout/overflow-auto": false,
+
+		// Content
+		"content/link": false,
+		"content/typography": false,
+		"content/embedded": false,
+		"content/button": false,
+		"content/table": false,
+		"content/code": false,
+		"content/figure": false,
+		"content/miscs": false,
+
+		// Forms
+		"forms/basics": true,
+		"forms/checkbox-radio-switch": true,
+		"forms/input-color": true,
+		"forms/input-date": true,
+		"forms/input-file": true,
+		"forms/input-range": true,
+		"forms/input-search": true,
+
+		// Components
+		"components/accordion": false,
+		"components/card": false,
+		"components/dropdown": false,
+		"components/group": false,
+		"components/loading": false,
+		"components/modal": false,
+		"components/nav": false,
+		"components/progress": false,
+		"components/tooltip": false,
+
+		// Utilities
+		"utilities/accessibility": false,
+		"utilities/reduce-motion": false
+	)
+);
+
 // Utilities
 //===============================
 @import "utilities/mixins";
